@@ -45,6 +45,18 @@ result = multiply(matrix_a, scalar, method="broadcast")
 print(result)
 
 ```
+## Source codes
+
+The library source codes are available on the repo below
+
+[https://github.com/idarapatrick/matrix-multiplication-package](https://github.com/idarapatrick/matrix-multiplication-package)
+
+## Library Documentation
+
+The library is up on both python org and test pi and can be installed with python manager
+
+- [https://pypi.org/project/alumath-peergroup-6/1.0.0/](https://pypi.org/project/alumath-peergroup-6/1.0.0/)
+- [https://test.pypi.org/project/alumath-peergroup-6/1.0.0/]()
 
 ## Contributors
 
