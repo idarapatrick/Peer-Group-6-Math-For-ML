@@ -22,6 +22,30 @@ A comprehensive Python library for matrix multiplication with support for differ
 pip install alumath_peergroup_6
 ```
 
+## Quick Start
+
+```python
+from alumath_peergroup_6 import Matrix, multiply
+
+# Create matrices
+matrix_a = Matrix([[1, 2], [3, 4]])
+matrix_b = Matrix([[5, 6], [7, 8]])
+
+# Standard matrix multiplication
+result = multiply(matrix_a, matrix_b, method="standard")
+print(result)
+
+# Element-wise multiplication
+result = multiply(matrix_a, matrix_b, method="hadamard")
+print(result)
+
+# Broadcasting multiplication
+scalar = Matrix([[2]])
+result = multiply(matrix_a, scalar, method="broadcast")
+print(result)
+
+```
+
 ## Contributors
 
 1. Patrick Niyogitare [p.niyogitar@alustudent.com](https://github.com/thepatrickniyo)
